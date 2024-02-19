@@ -11,7 +11,7 @@ public class Ebook extends Publicacion {
     public Ebook() {
         super("", "", 0,0.0);
         this.urlDescarga = "";
-        this.formato = ""; // inicializa el formato
+        this.formato = "";
     }
 
     public String getUrlDescarga() {
@@ -22,7 +22,6 @@ public class Ebook extends Publicacion {
         this.urlDescarga = urlDescarga;
     }
 
-    // nuevo método para obtener el formato
     public String getFormato() {
         return formato;
     }
